@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheat sheet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Learn css: Selectors</h1>
+    </header>
+    <section class="container">
+        <div class="breadcrumb">
+            <ul>
+                <li><a class="location" href="#">Home</a></li>
+                <li><a class="location" href="#">resources</a></li>
+                <li><a class="attribute" href="#">cheatsheet</a></li>
+
+            </ul>
+        </div>
+        <div class="element">
+            <h2>Element Selector</h2>
+            <p>Selects HTML elements based on their tag name. This is the most basic selector type in CSS and applies
+                styles to all instances of a particular element on a page.</p>
+            <img src="/images/element.jpeg" alt="example code">
+            <p>In this example, all &lt;p&gt; elements on the page will have blue text.</p>
+        </div>
+        <div class="class">
+            <h2>Class Selector</h2>
+            <p>Selects HTML elements with a specific class attribute value. Classes allow you to group together multiple
+                elements and apply the same styles to them.</p>
+            <img src="/images/class.jpeg" alt="code example">
+            <p>In this example, all elements with class="classname" will have red text.</p>
+
+        </div>
+        <div class="id">
+            <h2>ID Selector</h2>
+            <p>Selects a unique HTML element based on its id attribute value. IDs are intended to be unique on a page
+                and are often used to identify specific elements for scripting or styling purposes.</p>
+            <img src="/images/id.jpeg" alt="code example">
+            <p>In this example, the element with id="my-id" will have a yellow background.</p>
+
+        </div>
+        <div class="descendant">
+            <h2>Descendant Selector</h2>
+            <p>Selects an HTML element that is a descendant of another element. This selector allows you to apply styles
+                to elements nested within other elements.</p>
+            <img src="/images/descendant.jpeg" alt="code example">
+            <p>In this example, all &lt;li&gt; elements that are descendants of a &lt;ul&gt; element will have bold
+                text.</p>
+
+        </div>
+        <div class="child">
+            <h2>child Selector</h2>
+            <p>Selects an HTML element that is a direct child of another element. This selector is similar to the
+                descendant selector, but only applies styles to immediate children rather than all descendants..</p>
+            <img src="/images/child.jpeg" alt="code example">
+            <p>In this example, all &lt;li&gt; elements that are immediate children of a &lt;ul&gt; element will have
+                underlined text.</p>
+
+        </div>
+        <div class="adjacent">
+            <h2>Adjacent Selector</h2>
+            <p>Selects an HTML element that is immediately preceded by another element. This selector allows you to
+                apply styles to the element immediately following a specific element.</p>
+            <img src="/images/adjacent.jpeg" alt="code example">
+            <p>In this example, all &lt;p&gt; elements that immediately follow an &lt;h2&gt; element will have italic
+                text.</p>
+
+        </div>
+    </section>
+
+</body>
+
+</html>
